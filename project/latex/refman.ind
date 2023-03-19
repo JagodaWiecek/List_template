@@ -1,0 +1,87 @@
+\begin{theindex}
+
+  \item {C:/Users/jwiec/Desktop/731ab717-\/gr11-\/repo/Projekt/Projekt\_Lab/funkcje.cpp}, 
+		\hyperpage{3}, \hyperpage{7}
+  \item {C:/Users/jwiec/Desktop/731ab717-\/gr11-\/repo/Projekt/Projekt\_Lab/main.cpp}, 
+		\hyperpage{14, 15}
+  \item {C:/Users/jwiec/Desktop/731ab717-\/gr11-\/repo/Projekt/Projekt\_Lab/Nagłówek.h}, 
+		\hyperpage{16}
+  \item {CzyUlica}
+    \subitem {funkcje.cpp}, \hyperpage{3}
+
+  \indexspace
+
+  \item {funkcje.cpp}
+    \subitem {CzyUlica}, \hyperpage{3}
+    \subitem {IleRocznikow}, \hyperpage{4}
+    \subitem {ListaPrzedmiotow}, \hyperpage{4}
+    \subitem {menu}, \hyperpage{4}
+    \subitem {Miasta}, \hyperpage{4}
+    \subitem {srednia}, \hyperpage{4}
+    \subitem {sredniaOgolna}, \hyperpage{5}
+    \subitem {SredniaSzkoly}, \hyperpage{5}
+    \subitem {SredniaUcznia}, \hyperpage{5}
+    \subitem {sredniaUcznia}, \hyperpage{5}
+    \subitem {Ulica}, \hyperpage{5}
+    \subitem {wpisz1}, \hyperpage{6}
+    \subitem {wpisz2}, \hyperpage{6}
+    \subitem {WspolnaMiasto}, \hyperpage{6}
+    \subitem {WspolnaUlica}, \hyperpage{6}
+    \subitem {WspolnyRok}, \hyperpage{6}
+    \subitem {Wyswietlacz}, \hyperpage{7}
+
+  \indexspace
+
+  \item {IleRocznikow}
+    \subitem {funkcje.cpp}, \hyperpage{4}
+
+  \indexspace
+
+  \item {ListaPrzedmiotow}
+    \subitem {funkcje.cpp}, \hyperpage{4}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{15}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{15}
+  \item {menu}
+    \subitem {funkcje.cpp}, \hyperpage{4}
+  \item {Miasta}
+    \subitem {funkcje.cpp}, \hyperpage{4}
+
+  \indexspace
+
+  \item {srednia}
+    \subitem {funkcje.cpp}, \hyperpage{4}
+  \item {sredniaOgolna}
+    \subitem {funkcje.cpp}, \hyperpage{5}
+  \item {SredniaSzkoly}
+    \subitem {funkcje.cpp}, \hyperpage{5}
+  \item {SredniaUcznia}
+    \subitem {funkcje.cpp}, \hyperpage{5}
+  \item {sredniaUcznia}
+    \subitem {funkcje.cpp}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Ulica}
+    \subitem {funkcje.cpp}, \hyperpage{5}
+
+  \indexspace
+
+  \item {wpisz1}
+    \subitem {funkcje.cpp}, \hyperpage{6}
+  \item {wpisz2}
+    \subitem {funkcje.cpp}, \hyperpage{6}
+  \item {WspolnaMiasto}
+    \subitem {funkcje.cpp}, \hyperpage{6}
+  \item {WspolnaUlica}
+    \subitem {funkcje.cpp}, \hyperpage{6}
+  \item {WspolnyRok}
+    \subitem {funkcje.cpp}, \hyperpage{6}
+  \item {Wyswietlacz}
+    \subitem {funkcje.cpp}, \hyperpage{7}
+
+\end{theindex}

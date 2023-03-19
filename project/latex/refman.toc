@@ -1,0 +1,32 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}\relax 
+\contentsline {chapter}{\numberline {1}Indeks plików}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Lista plików}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Dokumentacja plików}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Dokumentacja pliku C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/jwiec/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/731ab717-\/gr11-\/repo/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekt/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekt\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lab/funkcje.cpp}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Dokumentacja funkcji}{3}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}CzyUlica()}{4}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}IleRocznikow()}{4}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}ListaPrzedmiotow()}{4}{subsubsection.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}menu()}{4}{subsubsection.2.1.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.1.5}Miasta()}{4}{subsubsection.2.1.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.1.6}srednia()}{5}{subsubsection.2.1.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.1.7}sredniaOgolna()}{5}{subsubsection.2.1.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.1.8}SredniaSzkoly()}{5}{subsubsection.2.1.1.8}%
+\contentsline {subsubsection}{\numberline {2.1.1.9}SredniaUcznia()}{5}{subsubsection.2.1.1.9}%
+\contentsline {subsubsection}{\numberline {2.1.1.10}sredniaUcznia()}{5}{subsubsection.2.1.1.10}%
+\contentsline {subsubsection}{\numberline {2.1.1.11}Ulica()}{6}{subsubsection.2.1.1.11}%
+\contentsline {subsubsection}{\numberline {2.1.1.12}wpisz1()}{6}{subsubsection.2.1.1.12}%
+\contentsline {subsubsection}{\numberline {2.1.1.13}wpisz2()}{6}{subsubsection.2.1.1.13}%
+\contentsline {subsubsection}{\numberline {2.1.1.14}WspolnaMiasto()}{6}{subsubsection.2.1.1.14}%
+\contentsline {subsubsection}{\numberline {2.1.1.15}WspolnaUlica()}{6}{subsubsection.2.1.1.15}%
+\contentsline {subsubsection}{\numberline {2.1.1.16}WspolnyRok()}{7}{subsubsection.2.1.1.16}%
+\contentsline {subsubsection}{\numberline {2.1.1.17}Wyswietlacz()}{7}{subsubsection.2.1.1.17}%
+\contentsline {section}{\numberline {2.2}funkcje.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Dokumentacja pliku C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/jwiec/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/731ab717-\/gr11-\/repo/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekt/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekt\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lab/main.cpp}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Dokumentacja funkcji}{15}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}main()}{15}{subsubsection.2.3.1.1}%
+\contentsline {section}{\numberline {2.4}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Dokumentacja pliku C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/jwiec/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/731ab717-\/gr11-\/repo/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekt/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Projekt\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lab/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Nagłówek.h}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Nagłówek.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{16}{section.2.6}%
+\contentsline {chapter}{Indeks}{17}{section*.3}%

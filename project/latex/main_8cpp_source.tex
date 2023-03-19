@@ -1,0 +1,37 @@
+\hypertarget{main_8cpp_source}{}\doxysection{main.\+cpp}
+\label{main_8cpp_source}\index{C:/Users/jwiec/Desktop/731ab717-\/gr11-\/repo/Projekt/Projekt\_Lab/main.cpp@{C:/Users/jwiec/Desktop/731ab717-\/gr11-\/repo/Projekt/Projekt\_Lab/main.cpp}}
+\mbox{\hyperlink{main_8cpp}{Idź do dokumentacji tego pliku.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00001}00001 \textcolor{preprocessor}{\#include<iostream>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00002}00002 \textcolor{preprocessor}{\#include<fstream>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00003}00003 \textcolor{preprocessor}{\#include<string>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00004}00004 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00005}00005 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00006}00006 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_nag_xC5_x82_xC3_xB3wek_8h}{Nagłówek.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00007}00007 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00015}\mbox{\hyperlink{main_8cpp_ac0f2228420376f4db7e1274f2b41667c}{00015}} \textcolor{keywordtype}{int} \mbox{\hyperlink{main_8cpp_ac0f2228420376f4db7e1274f2b41667c}{main}}(\textcolor{keywordtype}{int} argc, \textcolor{keyword}{const} \textcolor{keywordtype}{char}* argv[])}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00016}00016 \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00017}00017     \textcolor{keywordtype}{string} osoby, opis, wyjsciowy;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00018}00018     \textcolor{keywordtype}{string} napis;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00019}00019     \textcolor{keywordflow}{if} (argc == 7)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00020}00020     \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00021}00021         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < argc -\/ 1; i++)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00022}00022         \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00023}00023             napis = argv[i];}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00024}00024             \textcolor{keywordflow}{if}(napis == \textcolor{stringliteral}{"{}-\/inper"{}})}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00025}00025                 osoby= argv[i + 1];}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00026}00026             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(napis== \textcolor{stringliteral}{"{}-\/insub"{}})}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00027}00027                 opis = argv[i + 1];}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00028}00028             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if}(napis == \textcolor{stringliteral}{"{}-\/out"{}})}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00029}00029                 wyjsciowy= argv[i + 1];}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00030}00030         \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00031}00031     \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00032}00032     \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00033}00033     \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00034}00034         cout << \textcolor{stringliteral}{"{}Potrzebne parametry do poprawnego wlaczenia programu\(\backslash\)n-\/inper \(\backslash\)tplik z osobami \(\backslash\)n-\/insub \(\backslash\)tplik z ocenami \(\backslash\)n-\/out \(\backslash\)tplik wyjsciowy\(\backslash\)n"{}}<< endl;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00035}00035         \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00036}00036     \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00037}00037     \mbox{\hyperlink{funkcje_8cpp_a021aad50ca99c9dccad631c3c0f1f925}{menu}}(osoby, opis, wyjsciowy);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00038}00038 \}}
+
+\end{DoxyCode}

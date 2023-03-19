@@ -1,0 +1,216 @@
+\hypertarget{funkcje_8cpp}{}\doxysection{Dokumentacja pliku C\+:/\+Users/jwiec/\+Desktop/731ab717-\/gr11-\/repo/\+Projekt/\+Projekt\+\_\+\+Lab/funkcje.cpp}
+\label{funkcje_8cpp}\index{C:/Users/jwiec/Desktop/731ab717-\/gr11-\/repo/Projekt/Projekt\_Lab/funkcje.cpp@{C:/Users/jwiec/Desktop/731ab717-\/gr11-\/repo/Projekt/Projekt\_Lab/funkcje.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}Nag³ówek.\+h\char`\"{}}\newline
+\doxysubsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_aeb053d97d71ad04fd41ce0ce52b905a0}{wpisz1}} (List$<$ student $>$ \&l, string osoby)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_ab04c731427f8ef79d07349ddd9c9e2fa}{wpisz2}} (List$<$ oceny $>$ \&O, string opis)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_a3aa92370cce5c6732245c01bf3a8a1ff}{Lista\+Przedmiotow}} (List$<$ oceny $>$ O, List$<$ string $>$ \&przed)
+\item 
+double \mbox{\hyperlink{funkcje_8cpp_a3ec2017d4bf1c0341406a7868905fc23}{srednia\+Ucznia}} (string id, string przedmiot, List$<$ oceny $>$ o)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_ab39c00c58e410063e9a0d65ef610be73}{srednia}} (List$<$ student $>$ \&s, List$<$ oceny $>$ \&O, ofstream \&in1)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_a4bb476f4fac3f5b0d2d5ead4b482f648}{Srednia\+Szkoly}} (List$<$ student $>$ \&s, List$<$ oceny $>$ \&O, double \&\mbox{\hyperlink{funkcje_8cpp_ab39c00c58e410063e9a0d65ef610be73}{srednia}})
+\item 
+double \mbox{\hyperlink{funkcje_8cpp_a6612edb7166e357873e9aa7639813cc3}{Srednia\+Ucznia}} (List$<$ student $>$ \&s, List$<$ oceny $>$ \&O, int idx)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_acd66b9b9586051dcbdd0b74b1945f7e2}{srednia\+Ogolna}} (List$<$ student $>$ \&s, List$<$ oceny $>$ \&O, ofstream \&in)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_a7c439f5f52922434e821d0f7f176befb}{Ile\+Rocznikow}} (List$<$ student $>$ \&s, List$<$ string $>$ \&Roczniki)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_a7e9e5ca04586c63e05ce36da0edea770}{Wspolny\+Rok}} (List$<$ student $>$ \&S, ofstream \&in)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_ab29b3d594eb9389a9ca9cc647b6121e3}{Miasta}} (List$<$ student $>$ \&S, List$<$ string $>$ \&miasto)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_a8ecbc75c1cbb7e587b64e4c8c1f735fb}{Wspolna\+Miasto}} (List$<$ student $>$ \&S, ofstream \&in)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_a7802889caef26a4938966d20db76e1b6}{Ulica}} (List$<$ student $>$ \&S, List$<$ string $>$ \&ulice)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_a2a9208ed6df1ef927a076d0d2eced9ab}{Czy\+Ulica}} (List$<$ student $>$ \&S, string Miasto, List$<$ string $>$ \&UliceM)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_ac89c2a5eb183acf46715917c6a6f488d}{Wspolna\+Ulica}} (List$<$ student $>$ \&S, ofstream \&in)
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_acf55fcbfb06b9844e111e2410024b12f}{Wyswietlacz}} ()
+\item 
+void \mbox{\hyperlink{funkcje_8cpp_a021aad50ca99c9dccad631c3c0f1f925}{menu}} (string \&osoby, string \&opis, string \&wyj)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{funkcje_8cpp_a2a9208ed6df1ef927a076d0d2eced9ab}\label{funkcje_8cpp_a2a9208ed6df1ef927a076d0d2eced9ab}} 
+\index{funkcje.cpp@{funkcje.cpp}!CzyUlica@{CzyUlica}}
+\index{CzyUlica@{CzyUlica}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{CzyUlica()}{CzyUlica()}}
+{\footnotesize\ttfamily void Czy\+Ulica (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{S,  }\item[{string}]{Miasto,  }\item[{List$<$ string $>$ \&}]{UliceM }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00568}{568}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a7c439f5f52922434e821d0f7f176befb}\label{funkcje_8cpp_a7c439f5f52922434e821d0f7f176befb}} 
+\index{funkcje.cpp@{funkcje.cpp}!IleRocznikow@{IleRocznikow}}
+\index{IleRocznikow@{IleRocznikow}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{IleRocznikow()}{IleRocznikow()}}
+{\footnotesize\ttfamily void Ile\+Rocznikow (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{s,  }\item[{List$<$ string $>$ \&}]{Roczniki }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00471}{471}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a3aa92370cce5c6732245c01bf3a8a1ff}\label{funkcje_8cpp_a3aa92370cce5c6732245c01bf3a8a1ff}} 
+\index{funkcje.cpp@{funkcje.cpp}!ListaPrzedmiotow@{ListaPrzedmiotow}}
+\index{ListaPrzedmiotow@{ListaPrzedmiotow}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{ListaPrzedmiotow()}{ListaPrzedmiotow()}}
+{\footnotesize\ttfamily void Lista\+Przedmiotow (\begin{DoxyParamCaption}\item[{List$<$ oceny $>$}]{O,  }\item[{List$<$ string $>$ \&}]{przed }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00360}{360}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a021aad50ca99c9dccad631c3c0f1f925}\label{funkcje_8cpp_a021aad50ca99c9dccad631c3c0f1f925}} 
+\index{funkcje.cpp@{funkcje.cpp}!menu@{menu}}
+\index{menu@{menu}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{menu()}{menu()}}
+{\footnotesize\ttfamily void menu (\begin{DoxyParamCaption}\item[{string \&}]{osoby,  }\item[{string \&}]{opis,  }\item[{string \&}]{wyj }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00615}{615}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_ab29b3d594eb9389a9ca9cc647b6121e3}\label{funkcje_8cpp_ab29b3d594eb9389a9ca9cc647b6121e3}} 
+\index{funkcje.cpp@{funkcje.cpp}!Miasta@{Miasta}}
+\index{Miasta@{Miasta}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{Miasta()}{Miasta()}}
+{\footnotesize\ttfamily void Miasta (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{S,  }\item[{List$<$ string $>$ \&}]{miasto }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00521}{521}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_ab39c00c58e410063e9a0d65ef610be73}\label{funkcje_8cpp_ab39c00c58e410063e9a0d65ef610be73}} 
+\index{funkcje.cpp@{funkcje.cpp}!srednia@{srednia}}
+\index{srednia@{srednia}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{srednia()}{srednia()}}
+{\footnotesize\ttfamily void srednia (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{s,  }\item[{List$<$ oceny $>$ \&}]{O,  }\item[{ofstream \&}]{in1 }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00401}{401}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_acd66b9b9586051dcbdd0b74b1945f7e2}\label{funkcje_8cpp_acd66b9b9586051dcbdd0b74b1945f7e2}} 
+\index{funkcje.cpp@{funkcje.cpp}!sredniaOgolna@{sredniaOgolna}}
+\index{sredniaOgolna@{sredniaOgolna}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{sredniaOgolna()}{sredniaOgolna()}}
+{\footnotesize\ttfamily void srednia\+Ogolna (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{s,  }\item[{List$<$ oceny $>$ \&}]{O,  }\item[{ofstream \&}]{in }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00456}{456}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a4bb476f4fac3f5b0d2d5ead4b482f648}\label{funkcje_8cpp_a4bb476f4fac3f5b0d2d5ead4b482f648}} 
+\index{funkcje.cpp@{funkcje.cpp}!SredniaSzkoly@{SredniaSzkoly}}
+\index{SredniaSzkoly@{SredniaSzkoly}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{SredniaSzkoly()}{SredniaSzkoly()}}
+{\footnotesize\ttfamily void Srednia\+Szkoly (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{s,  }\item[{List$<$ oceny $>$ \&}]{O,  }\item[{double \&}]{srednia }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00418}{418}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a6612edb7166e357873e9aa7639813cc3}\label{funkcje_8cpp_a6612edb7166e357873e9aa7639813cc3}} 
+\index{funkcje.cpp@{funkcje.cpp}!SredniaUcznia@{SredniaUcznia}}
+\index{SredniaUcznia@{SredniaUcznia}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{SredniaUcznia()}{SredniaUcznia()}}
+{\footnotesize\ttfamily double Srednia\+Ucznia (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{s,  }\item[{List$<$ oceny $>$ \&}]{O,  }\item[{int}]{idx }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00437}{437}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a3ec2017d4bf1c0341406a7868905fc23}\label{funkcje_8cpp_a3ec2017d4bf1c0341406a7868905fc23}} 
+\index{funkcje.cpp@{funkcje.cpp}!sredniaUcznia@{sredniaUcznia}}
+\index{sredniaUcznia@{sredniaUcznia}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{sredniaUcznia()}{sredniaUcznia()}}
+{\footnotesize\ttfamily double srednia\+Ucznia (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{string}]{przedmiot,  }\item[{List$<$ oceny $>$}]{o }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00378}{378}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a7802889caef26a4938966d20db76e1b6}\label{funkcje_8cpp_a7802889caef26a4938966d20db76e1b6}} 
+\index{funkcje.cpp@{funkcje.cpp}!Ulica@{Ulica}}
+\index{Ulica@{Ulica}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{Ulica()}{Ulica()}}
+{\footnotesize\ttfamily void Ulica (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{S,  }\item[{List$<$ string $>$ \&}]{ulice }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00553}{553}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_aeb053d97d71ad04fd41ce0ce52b905a0}\label{funkcje_8cpp_aeb053d97d71ad04fd41ce0ce52b905a0}} 
+\index{funkcje.cpp@{funkcje.cpp}!wpisz1@{wpisz1}}
+\index{wpisz1@{wpisz1}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{wpisz1()}{wpisz1()}}
+{\footnotesize\ttfamily void wpisz1 (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{l,  }\item[{string}]{osoby }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00323}{323}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_ab04c731427f8ef79d07349ddd9c9e2fa}\label{funkcje_8cpp_ab04c731427f8ef79d07349ddd9c9e2fa}} 
+\index{funkcje.cpp@{funkcje.cpp}!wpisz2@{wpisz2}}
+\index{wpisz2@{wpisz2}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{wpisz2()}{wpisz2()}}
+{\footnotesize\ttfamily void wpisz2 (\begin{DoxyParamCaption}\item[{List$<$ oceny $>$ \&}]{O,  }\item[{string}]{opis }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00340}{340}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a8ecbc75c1cbb7e587b64e4c8c1f735fb}\label{funkcje_8cpp_a8ecbc75c1cbb7e587b64e4c8c1f735fb}} 
+\index{funkcje.cpp@{funkcje.cpp}!WspolnaMiasto@{WspolnaMiasto}}
+\index{WspolnaMiasto@{WspolnaMiasto}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{WspolnaMiasto()}{WspolnaMiasto()}}
+{\footnotesize\ttfamily void Wspolna\+Miasto (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{S,  }\item[{ofstream \&}]{in }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00536}{536}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_ac89c2a5eb183acf46715917c6a6f488d}\label{funkcje_8cpp_ac89c2a5eb183acf46715917c6a6f488d}} 
+\index{funkcje.cpp@{funkcje.cpp}!WspolnaUlica@{WspolnaUlica}}
+\index{WspolnaUlica@{WspolnaUlica}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{WspolnaUlica()}{WspolnaUlica()}}
+{\footnotesize\ttfamily void Wspolna\+Ulica (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{S,  }\item[{ofstream \&}]{in }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00585}{585}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_a7e9e5ca04586c63e05ce36da0edea770}\label{funkcje_8cpp_a7e9e5ca04586c63e05ce36da0edea770}} 
+\index{funkcje.cpp@{funkcje.cpp}!WspolnyRok@{WspolnyRok}}
+\index{WspolnyRok@{WspolnyRok}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{WspolnyRok()}{WspolnyRok()}}
+{\footnotesize\ttfamily void Wspolny\+Rok (\begin{DoxyParamCaption}\item[{List$<$ student $>$ \&}]{S,  }\item[{ofstream \&}]{in }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00494}{494}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
+\mbox{\Hypertarget{funkcje_8cpp_acf55fcbfb06b9844e111e2410024b12f}\label{funkcje_8cpp_acf55fcbfb06b9844e111e2410024b12f}} 
+\index{funkcje.cpp@{funkcje.cpp}!Wyswietlacz@{Wyswietlacz}}
+\index{Wyswietlacz@{Wyswietlacz}!funkcje.cpp@{funkcje.cpp}}
+\doxysubsubsection{\texorpdfstring{Wyswietlacz()}{Wyswietlacz()}}
+{\footnotesize\ttfamily void Wyswietlacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definicja w linii \mbox{\hyperlink{funkcje_8cpp_source_l00609}{609}} pliku \mbox{\hyperlink{funkcje_8cpp_source}{funkcje.\+cpp}}.
+
